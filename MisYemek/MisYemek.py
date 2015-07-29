@@ -1,8 +1,11 @@
 # coding: utf-8
 
+os.system("del /q .\\obf\\__pycache__")
+
 import easygui
 import obf.Recipes
 import obf.Meals
+import os
 
 
 def secimekrani():
